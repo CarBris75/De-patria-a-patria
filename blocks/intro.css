@@ -1,6 +1,7 @@
 .intro {
   max-width: 720px;
   margin: 0 auto 64px;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -13,24 +14,23 @@
   line-height: 58px;
   left: 148px;
   color: #ffffff;
-  margin: 0 0 20px 0;
+ 
 }
 .intro__subtitle {
   max-width: 738px;
- width: 100%;
-  margin: 0 0 20px 0;
+  width: 100%;
+
   color: #ffffff;
 }
 .intro__subtitle-author {
   max-width: 732px;
   width: 100%;
   text-align: right;
-  margin-bottom: 20px;
-   color: #ffffff;
+  color: #ffffff;
 }
 .intro__text {
   max-width: 722px;
-width: 100%;
+  width: 100%;
   font-family: Inter;
   font-weight: 400px;
   font-size: 16px;
@@ -40,10 +40,9 @@ width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-
-   .intro {
+  .intro {
     padding: 0 24px;
-  margin-bottom: 55px;
+    margin-bottom: 55px;
   }
   .intro__title {
     max-width: 707px;
@@ -76,16 +75,16 @@ width: 100%;
     margin-bottom: 40px;
   }
   .intro__title {
-   max-width: 288px;
-   font-size: 32px;
-   line-height: 35px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
   }
   .intro__subtitle {
-   max-width: 288px;
-   line-height: 30px;
+    max-width: 288px;
+    line-height: 30px;
   }
   .intro__subtitle-author {
-   max-width: 288px;
+    max-width: 288px;
   }
   .intro__text {
     max-width: 288px;
